@@ -1,0 +1,38 @@
+author: captain1379
+created_at: "2024-02-13T14:45:00-04:00"
+description:
+  en_US: Jiekou.AI is a one-stop LLM API platform, providing stable, efficient and economic enterprise-level API solutions.
+  zh_Hans: 接口 AI 是一个一站式的大模型 API 平台，提供稳定、高效且经济的企业级 API 解决方案。
+icon: icon_s_en.svg
+label:
+  en_US: Jiekou.AI
+  zh_Hans: 接口 AI
+meta:
+  arch:
+  - amd64
+  - arm64
+  runner:
+    entrypoint: main
+    language: python
+    version: '3.10'
+  version: 1.0.0
+name: jiekou
+plugins:
+  models:
+  - provider/jiekou.yaml
+resource:
+  memory: 268435456
+  permission:
+    model:
+      enabled: true
+      llm: true
+      moderation: false
+      rerank: false
+      speech2text: false
+      text_embedding: false
+      tts: false
+    tool:
+      enabled: true
+type: plugin
+version: 1.0.0
+privacy: https://jiekou.ai/legal/privacy-policy

@@ -1,0 +1,44 @@
+provider: jiekouai
+label:
+  en_US: Jiekou.AI
+  zh_Hans: 接口 AI
+description:
+  en_US: Jiekou.AI is a one-stop LLM API platform, providing stable, efficient and economic enterprise-level API solutions.
+  zh_Hans: 接口 AI 是一个一站式的大模型 API 平台，提供稳定、高效且经济的企业级 API 解决方案。
+icon_small:
+  en_US: icon_s_en.svg
+icon_large:
+  en_US: icon_l_en.svg
+  zh_Hans: icon_l_zh.svg
+background: "#338de9"
+help:
+  title:
+    en_US: Get your API key from Jiekou.AI
+    zh_Hans: 从 接口 AI 获取 API 密钥
+  url:
+    en_US: https://jiekou.ai/settings/key-management?utm_source=github_dify&utm_medium=github_readme&utm_campaign=link
+supported_model_types:
+  - llm
+configurate_methods:
+  - predefined-model
+extra:
+  python:
+    model_sources:
+      - models/llm/llm.py
+    provider_source: provider/jiekou.py
+models:
+  llm:
+    position: models/llm/_position.yaml
+    predefined:
+      - models/llm/*.yaml
+provider_credential_schema:
+  credential_form_schemas:
+    - variable: api_key
+      label:
+        en_US: API Key
+        zh_Hans: API Key
+      type: secret-input
+      required: true
+      placeholder:
+        en_US: Please input your API Key
+        zh_Hans: 请输入您的 API 密钥
