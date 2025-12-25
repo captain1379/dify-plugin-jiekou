@@ -1,3 +1,11 @@
+# Minimax Models
+- minimax/minimax-m2.1
+
+# Zai-Org Models
+- zai-org/glm-4.7
+- zai-org/glm-4.5
+- zai-org/glm-4.5v
+
 # Qwen Models
 - qwen/qwen3-next-80b-a3b-instruct
 - qwen/qwen3-next-80b-a3b-thinking
@@ -12,6 +20,9 @@
 - qwen/qwen-mt-plus
 - qwen/qwen3-8b-fp8
 - qwen/qwen2.5-7b-instruct
+
+# Gemini-3-Flash-Preview Models
+- gemini-3-flash-preview
 
 # Gpt-5.2 Models
 - gpt-5.2
@@ -49,10 +60,6 @@
 
 # Claude-Sonnet-4-20250514 Models
 - claude-sonnet-4-20250514
-
-# Zai-Org Models
-- zai-org/glm-4.5
-- zai-org/glm-4.5v
 
 # Claude-Opus-4-20250514 Models
 - claude-opus-4-20250514
@@ -126,11 +133,20 @@
 # Gryphe Models
 - gryphe/mythomax-l2-13b
 
+# Xiaomimimo Models
+- xiaomimimo/mimo-v2-flash
+
 # Gpt-5.2-Pro Models
 - gpt-5.2-pro
 
 # Gpt-5.2-Chat-Latest Models
 - gpt-5.2-chat-latest
+
+# Gpt-5.1-Codex-Max Models
+- gpt-5.1-codex-max
+
+# Gpt-5.1-Codex-Mini Models
+- gpt-5.1-codex-mini
 
 # Nova-2-Lite Models
 - nova-2-Lite

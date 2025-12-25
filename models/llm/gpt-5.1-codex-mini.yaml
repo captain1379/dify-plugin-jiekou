@@ -1,12 +1,12 @@
-model: gpt-5.2-pro
+model: gpt-5.1-codex-mini
 label:
-  zh_Hans: gpt-5.2-pro
-  en_US: gpt-5.2-pro
+  zh_Hans: gpt-5.1-codex-mini
+  en_US: gpt-5.1-codex-mini
 model_type: llm
 features:
+  - multi-tool-call
   - structured-output
   - stream-tool-call
-  - multi-tool-call
   - tool-call
 model_properties:
   mode: chat
@@ -38,7 +38,7 @@ parameter_rules:
     max: 2
     default: 0
 pricing:
-  input: '0.189'
-  output: '1.512'
+  input: '0.00225'
+  output: '0.018'
   unit: '0.0001'
   currency: USD

@@ -10,7 +10,7 @@ from ..oaiapi import OAIAPICompatLargeLanguageModel
 
 class JiekouLargeLanguageModel(OAIAPICompatLargeLanguageModel):
     def _update_endpoint_url(self, credentials: dict):
-        credentials["endpoint_url"] = "https://api.jiekou.ai/openai"
+        credentials["endpoint_url"] = "https://api.jiekou.ai/openai/v1"
         credentials["extra_headers"] = {"X-API-Source": "dify.ai"}
         return credentials
 
@@ -26,6 +26,7 @@ class JiekouLargeLanguageModel(OAIAPICompatLargeLanguageModel):
         user: Optional[str] = None,
     ) -> Union[LLMResult, Generator]:
         cred_with_endpoint = self._update_endpoint_url(credentials=credentials)
+        self._add_custom_parameters(cred_with_endpoint, model)
         return super()._invoke(model, cred_with_endpoint, prompt_messages, model_parameters, tools, stop, stream, user)
 
     def validate_credentials(self, model: str, credentials: dict) -> None:
@@ -49,13 +50,14 @@ class JiekouLargeLanguageModel(OAIAPICompatLargeLanguageModel):
         user: Optional[str] = None,
     ) -> Union[LLMResult, Generator]:
         cred_with_endpoint = self._update_endpoint_url(credentials=credentials)
+        self._add_custom_parameters(cred_with_endpoint, model)
         return super()._generate(
             model, cred_with_endpoint, prompt_messages, model_parameters, tools, stop, stream, user
         )
 
     def get_customizable_model_schema(self, model: str, credentials: dict) -> AIModelEntity:
         cred_with_endpoint = self._update_endpoint_url(credentials=credentials)
-
+        self._add_custom_parameters(cred_with_endpoint, model)
         return super().get_customizable_model_schema(model, cred_with_endpoint)
 
     def get_num_tokens(
