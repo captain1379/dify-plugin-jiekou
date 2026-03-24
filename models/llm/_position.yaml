@@ -1,37 +1,38 @@
-# Minimax Models
-- minimax/minimax-m2.1
+# Gpt-5.4-Pro Models
+- gpt-5.4-pro
 
-# Zai-Org Models
-- zai-org/glm-4.7
-- zai-org/glm-4.5
-- zai-org/glm-4.5v
+# Gemini-3.1-Flash-Lite-Preview Models
+- gemini-3.1-flash-lite-preview
 
-# Qwen Models
-- qwen/qwen3-next-80b-a3b-instruct
-- qwen/qwen3-next-80b-a3b-thinking
-- qwen/qwen3-coder-480b-a35b-instruct
-- qwen/qwen3-235b-a22b-thinking-2507
-- qwen/qwen3-235b-a22b-instruct-2507
-- qwen/qwen-2.5-72b-instruct
-- qwen/qwen3-235b-a22b-fp8
-- qwen/qwen2.5-vl-72b-instruct
-- qwen/qwen3-32b-fp8
-- qwen/qwen3-30b-a3b-fp8
-- qwen/qwen-mt-plus
-- qwen/qwen3-8b-fp8
-- qwen/qwen2.5-7b-instruct
+# Gpt-5.4-Nano Models
+- gpt-5.4-nano
 
-# Gemini-3-Flash-Preview Models
-- gemini-3-flash-preview
+# Gpt-5.4-Mini Models
+- gpt-5.4-mini
+
+# Gpt-5.4 Models
+- gpt-5.4
+
+# Gpt-5.3-Codex Models
+- gpt-5.3-codex
+
+# Gemini-3.1-Pro-Preview Models
+- gemini-3.1-pro-preview
+
+# Claude-Sonnet-4-6 Models
+- claude-sonnet-4-6
+
+# Gpt-5.3-Chat-Latest Models
+- gpt-5.3-chat-latest
+
+# Claude-Opus-4-6 Models
+- claude-opus-4-6
 
 # Gpt-5.2 Models
 - gpt-5.2
 
 # Claude-Opus-4-5-20251101 Models
 - claude-opus-4-5-20251101
-
-# Gemini-3-Pro-Preview Models
-- gemini-3-pro-preview
 
 # Gpt-5.1 Models
 - gpt-5.1
@@ -42,12 +43,9 @@
 # Claude-Sonnet-4-5-20250929 Models
 - claude-sonnet-4-5-20250929
 
-# Moonshotai Models
-- moonshotai/kimi-k2-0905
-- moonshotai/kimi-k2-instruct
-
 # Deepseek Models
 - deepseek/deepseek-v3.1
+- deepseek/deepseek-ocr-2
 - deepseek/deepseek-r1-0528
 - deepseek/deepseek-v3-0324
 
@@ -64,15 +62,20 @@
 # Claude-Opus-4-20250514 Models
 - claude-opus-4-20250514
 
-# Claude-Opus-4-1-20250805 Models
-- claude-opus-4-1-20250805
-
-# Meta-Llama Models
-- meta-llama/llama-3.1-8b-instruct
-- meta-llama/llama-3.3-70b-instruct
-- meta-llama/llama-4-maverick-17b-128e-instruct-fp8
-- meta-llama/llama-4-scout-17b-16e-instruct
-- meta-llama/llama-3.2-3b-instruct
+# Qwen Models
+- qwen/qwen3-235b-a22b-thinking-2507
+- qwen/qwen3-coder-480b-a35b-instruct
+- qwen/qwen3-235b-a22b-instruct-2507
+- qwen/qwen3-coder-next
+- qwen/qwen3-next-80b-a3b-instruct
+- qwen/qwen3-next-80b-a3b-thinking
+- qwen/qwen-mt-plus
+- qwen/qwen3-32b-fp8
+- qwen/qwen3-30b-a3b-fp8
+- qwen/qwen3-235b-a22b-fp8
+- qwen/qwen2.5-7b-instruct
+- qwen/qwen2.5-vl-72b-instruct
+- qwen/qwen-2.5-72b-instruct
 
 # Gpt-5-Codex Models
 - gpt-5-codex
@@ -81,21 +84,16 @@
 - google/gemma-3-12b-it
 - google/gemma-3-27b-it
 
+# Zai-Org Models
+- zai-org/glm-4.5v
+- zai-org/glm-4.5
+- zai-org/glm-5
+- zai-org/glm-ocr
+- zai-org/glm-4.7-flash
+- zai-org/glm-4.7
+
 # Gemini-2.5-Flash Models
 - gemini-2.5-flash
-
-# Mistralai Models
-- mistralai/mistral-nemo
-- mistralai/mistral-7b-instruct
-
-# Gemini-2.5-Pro Models
-- gemini-2.5-pro
-
-# Minimaxai Models
-- minimaxai/minimax-m1-80k
-
-# Gpt-5.1-Codex Models
-- gpt-5.1-codex
 
 # Gpt-5.1-Chat-Latest Models
 - gpt-5.1-chat-latest
@@ -103,38 +101,43 @@
 # Gpt-5 Models
 - gpt-5
 
+# Mistralai Models
+- mistralai/mistral-7b-instruct
+- mistralai/mistral-nemo
+
 # Gpt-5-Mini Models
 - gpt-5-mini
 
 # Gpt-5-Nano Models
 - gpt-5-nano
 
-# Sao10K Models
-- sao10k/l3-70b-euryale-v2.1
-- sao10k/l3-8b-lunaris
-- sao10k/l31-70b-euryale-v2.2
-
 # Gpt-5-Pro Models
 - gpt-5-pro
 
-# Baichuan Models
-- baichuan/baichuan-m2-32b
-
-# Thudm Models
-- thudm/glm-4.1v-9b-thinking
+# Moonshotai Models
+- moonshotai/kimi-k2-instruct
+- moonshotai/kimi-k2.5
+- moonshotai/kimi-k2-0905
 
 # Baidu Models
 - baidu/ernie-4.5-vl-424b-a47b
 - baidu/ernie-4.5-300b-a47b-paddle
 
-# Sao10K Models
-- Sao10K/L3-8B-Stheno-v3.2
+# Gpt-5.2-Codex Models
+- gpt-5.2-codex
 
-# Gryphe Models
-- gryphe/mythomax-l2-13b
+# Minimax Models
+- minimax/minimax-m2.5
+- minimax/minimax-m2.1
+
+# Doubao-Seed-1-8-251228 Models
+- doubao-seed-1-8-251228
 
 # Xiaomimimo Models
 - xiaomimimo/mimo-v2-flash
+
+# Gemini-3-Flash-Preview Models
+- gemini-3-flash-preview
 
 # Gpt-5.2-Pro Models
 - gpt-5.2-pro
@@ -156,6 +159,12 @@
 
 # Grok-4-1-Fast-Non-Reasoning Models
 - grok-4-1-fast-non-reasoning
+
+# Gemini-3-Pro-Preview Models
+- gemini-3-pro-preview
+
+# Gpt-5.1-Codex Models
+- gpt-5.1-codex
 
 # Doubao-1-5-Pro-32K-250115 Models
 - doubao-1-5-pro-32k-250115
@@ -196,11 +205,17 @@
 # Grok-4-0709 Models
 - grok-4-0709
 
+# Gemini-2.5-Pro Models
+- gemini-2.5-pro
+
 # Claude-3-5-Sonnet-20241022 Models
 - claude-3-5-sonnet-20241022
 
 # Gemini-2.5-Flash-Lite-Preview-06-17 Models
 - gemini-2.5-flash-lite-preview-06-17
+
+# Minimaxai Models
+- minimaxai/minimax-m1-80k
 
 # Gpt-4.1-Mini Models
 - gpt-4.1-mini
@@ -243,3 +258,21 @@
 
 # Gpt-4O Models
 - gpt-4o
+
+# Meta-Llama Models
+- meta-llama/llama-4-maverick-17b-128e-instruct-fp8
+- meta-llama/llama-4-scout-17b-16e-instruct
+- meta-llama/llama-3.3-70b-instruct
+- meta-llama/llama-3.2-3b-instruct
+- meta-llama/llama-3.1-8b-instruct
+
+# Sao10K Models
+- Sao10K/L3-8B-Stheno-v3.2
+
+# Sao10K Models
+- sao10k/l3-8b-lunaris
+- sao10k/l31-70b-euryale-v2.2
+- sao10k/l3-70b-euryale-v2.1
+
+# Gryphe Models
+- gryphe/mythomax-l2-13b

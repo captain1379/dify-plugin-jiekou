@@ -1,16 +1,13 @@
-model: claude-opus-4-1-20250805
+model: zai-org/glm-ocr
 label:
-  zh_Hans: claude-opus-4-1-20250805
-  en_US: claude-opus-4-1-20250805
+  zh_Hans: GLM-OCR
+  en_US: GLM-OCR
 model_type: llm
 features:
   - structured-output
-  - stream-tool-call
-  - multi-tool-call
-  - tool-call
 model_properties:
   mode: chat
-  context_size: 200000
+  context_size: 32000
 parameter_rules:
   - name: temperature
     use_template: temperature
@@ -38,7 +35,7 @@ parameter_rules:
     max: 2
     default: 0
 pricing:
-  input: '0.135'
-  output: '0.675'
+  input: '0.0003'
+  output: '0.0003'
   unit: '0.0001'
   currency: USD

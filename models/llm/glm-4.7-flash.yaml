@@ -1,10 +1,11 @@
-model: doubao-1.5-pro-32k-character-250715
+model: zai-org/glm-4.7-flash
 label:
-  zh_Hans: doubao-1.5-pro-32k-character-250715
-  en_US: doubao-1.5-pro-32k-character-250715
+  zh_Hans: GLM-4.7-Flash
+  en_US: GLM-4.7-Flash
 model_type: llm
 features:
   - tool-call
+  - structured-output
   - multi-tool-call
   - stream-tool-call
 model_properties:
@@ -37,7 +38,7 @@ parameter_rules:
     max: 2
     default: 0
 pricing:
-  input: '0.0011'
-  output: '0.00275'
+  input: '0.0007'
+  output: '0.004'
   unit: '0.0001'
   currency: USD

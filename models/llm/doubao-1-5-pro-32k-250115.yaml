@@ -4,10 +4,9 @@ label:
   en_US: doubao-1-5-pro-32k-250115
 model_type: llm
 features:
-  - structured-output
-  - stream-tool-call
-  - multi-tool-call
   - tool-call
+  - multi-tool-call
+  - stream-tool-call
 model_properties:
   mode: chat
   context_size: 128000

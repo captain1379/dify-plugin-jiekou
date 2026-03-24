@@ -1,12 +1,16 @@
-model: qwen/qwen3-8b-fp8
+model: qwen/qwen3-coder-next
 label:
-  zh_Hans: Qwen3 8B
-  en_US: Qwen3 8B
+  zh_Hans: Qwen3 Coder Next FP8
+  en_US: Qwen3 Coder Next FP8
 model_type: llm
-features: []
+features:
+  - tool-call
+  - structured-output
+  - multi-tool-call
+  - stream-tool-call
 model_properties:
   mode: chat
-  context_size: 128000
+  context_size: 262144
 parameter_rules:
   - name: temperature
     use_template: temperature
@@ -34,7 +38,7 @@ parameter_rules:
     max: 2
     default: 0
 pricing:
-  input: '0.00035'
-  output: '0.00138'
+  input: '0.002'
+  output: '0.015'
   unit: '0.0001'
   currency: USD

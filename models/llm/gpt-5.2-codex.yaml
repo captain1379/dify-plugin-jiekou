@@ -1,15 +1,16 @@
-model: doubao-1.5-pro-32k-character-250715
+model: gpt-5.2-codex
 label:
-  zh_Hans: doubao-1.5-pro-32k-character-250715
-  en_US: doubao-1.5-pro-32k-character-250715
+  zh_Hans: gpt-5.2-codex
+  en_US: gpt-5.2-codex
 model_type: llm
 features:
   - tool-call
+  - structured-output
   - multi-tool-call
   - stream-tool-call
 model_properties:
   mode: chat
-  context_size: 200000
+  context_size: 400000
 parameter_rules:
   - name: temperature
     use_template: temperature
@@ -37,7 +38,7 @@ parameter_rules:
     max: 2
     default: 0
 pricing:
-  input: '0.0011'
-  output: '0.00275'
+  input: '0.0175'
+  output: '0.14'
   unit: '0.0001'
   currency: USD
