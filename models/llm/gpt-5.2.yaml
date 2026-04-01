@@ -38,7 +38,7 @@ parameter_rules:
     max: 2
     default: 0
 pricing:
-  input: '0.01575'
-  output: '0.126'
+  input: '0.016625'
+  output: '0.133'
   unit: '0.0001'
   currency: USD
