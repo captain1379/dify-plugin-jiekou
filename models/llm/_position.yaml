@@ -1,3 +1,12 @@
+# Moonshotai Models
+- moonshotai/kimi-k2.6
+- moonshotai/kimi-k2-instruct
+- moonshotai/kimi-k2.5
+- moonshotai/kimi-k2-0905
+
+# Claude-Opus-4-7 Models
+- claude-opus-4-7
+
 # Gpt-5.4-Pro Models
 - gpt-5.4-pro
 
@@ -101,10 +110,6 @@
 # Gpt-5 Models
 - gpt-5
 
-# Mistralai Models
-- mistralai/mistral-7b-instruct
-- mistralai/mistral-nemo
-
 # Gpt-5-Mini Models
 - gpt-5-mini
 
@@ -114,14 +119,26 @@
 # Gpt-5-Pro Models
 - gpt-5-pro
 
-# Moonshotai Models
-- moonshotai/kimi-k2-instruct
-- moonshotai/kimi-k2.5
-- moonshotai/kimi-k2-0905
-
 # Baidu Models
 - baidu/ernie-4.5-vl-424b-a47b
 - baidu/ernie-4.5-300b-a47b-paddle
+
+# Meta-Llama Models
+- meta-llama/llama-4-maverick-17b-128e-instruct-fp8
+- meta-llama/llama-4-scout-17b-16e-instruct
+- meta-llama/llama-3.3-70b-instruct
+- meta-llama/llama-3.2-3b-instruct
+- meta-llama/llama-3.1-8b-instruct
+
+# Mistralai Models
+- mistralai/mistral-nemo
+- mistralai/mistral-7b-instruct
+
+# Nova-2-Lite Models
+- nova-2-Lite
+
+# Xiaomimimo Models
+- xiaomimimo/mimo-v2-flash
 
 # Gpt-5.2-Codex Models
 - gpt-5.2-codex
@@ -132,9 +149,6 @@
 
 # Doubao-Seed-1-8-251228 Models
 - doubao-seed-1-8-251228
-
-# Xiaomimimo Models
-- xiaomimimo/mimo-v2-flash
 
 # Gemini-3-Flash-Preview Models
 - gemini-3-flash-preview
@@ -150,9 +164,6 @@
 
 # Gpt-5.1-Codex-Mini Models
 - gpt-5.1-codex-mini
-
-# Nova-2-Lite Models
-- nova-2-Lite
 
 # Grok-4-1-Fast-Reasoning Models
 - grok-4-1-fast-reasoning
@@ -258,13 +269,6 @@
 
 # Gpt-4O Models
 - gpt-4o
-
-# Meta-Llama Models
-- meta-llama/llama-4-maverick-17b-128e-instruct-fp8
-- meta-llama/llama-4-scout-17b-16e-instruct
-- meta-llama/llama-3.3-70b-instruct
-- meta-llama/llama-3.2-3b-instruct
-- meta-llama/llama-3.1-8b-instruct
 
 # Sao10K Models
 - Sao10K/L3-8B-Stheno-v3.2
