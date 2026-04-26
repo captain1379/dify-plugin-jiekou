@@ -1,9 +1,3 @@
-# Moonshotai Models
-- moonshotai/kimi-k2.6
-- moonshotai/kimi-k2-instruct
-- moonshotai/kimi-k2.5
-- moonshotai/kimi-k2-0905
-
 # Claude-Opus-4-7 Models
 - claude-opus-4-7
 
@@ -12,6 +6,12 @@
 
 # Gemini-3.1-Flash-Lite-Preview Models
 - gemini-3.1-flash-lite-preview
+
+# Gpt-5.5-Pro Models
+- gpt-5.5-pro
+
+# Gpt-5.5 Models
+- gpt-5.5
 
 # Gpt-5.4-Nano Models
 - gpt-5.4-nano
@@ -139,6 +139,11 @@
 
 # Xiaomimimo Models
 - xiaomimimo/mimo-v2-flash
+
+# Moonshotai Models
+- moonshotai/kimi-k2-instruct
+- moonshotai/kimi-k2.5
+- moonshotai/kimi-k2-0905
 
 # Gpt-5.2-Codex Models
 - gpt-5.2-codex
