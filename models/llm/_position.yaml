@@ -1,3 +1,6 @@
+# Claude-Fable-5 Models
+- claude-fable-5
+
 # Claude-Opus-4-8 Models
 - claude-opus-4-8
 
@@ -34,17 +37,29 @@
 - xiaomimimo/mimo-v2-pro
 - xiaomimimo/mimo-v2-flash
 
+# Claude-Opus-4-8-R Models
+- claude-opus-4-8-r
+
 # Claude-Opus-4-7 Models
 - claude-opus-4-7
 
+# Claude-Opus-4-7-R Models
+- claude-opus-4-7-r
+
 # Claude-Opus-4-6 Models
 - claude-opus-4-6
+
+# Claude-Opus-4-6-R Models
+- claude-opus-4-6-r
 
 # Claude-Opus-4-6-Dd Models
 - claude-opus-4-6-dd
 
 # Claude-Sonnet-4-6 Models
 - claude-sonnet-4-6
+
+# Claude-Sonnet-4-6-R Models
+- claude-sonnet-4-6-r
 
 # Claude-Sonnet-4-6-Dd Models
 - claude-sonnet-4-6-dd
@@ -63,6 +78,9 @@
 
 # Claude-Haiku-4-5-20251001 Models
 - claude-haiku-4-5-20251001
+
+# Claude-Haiku-4-5-20251001-R Models
+- claude-haiku-4-5-20251001-r
 
 # Claude-Haiku-4-5-20251001-Dd Models
 - claude-haiku-4-5-20251001-dd
