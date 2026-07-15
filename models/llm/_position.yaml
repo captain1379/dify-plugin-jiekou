@@ -4,6 +4,18 @@
 # Claude-Opus-4-7 Models
 - claude-opus-4-7
 
+# Gpt-5.6-Terra Models
+- gpt-5.6-terra
+
+# Gpt-5.6-Luna Models
+- gpt-5.6-luna
+
+# Gpt-5.6-Sol Models
+- gpt-5.6-sol
+
+# Gemini-3.1-Flash-Lite Models
+- gemini-3.1-flash-lite
+
 # Claude-Sonnet-5 Models
 - claude-sonnet-5
 
@@ -25,6 +37,9 @@
 - moonshotai/kimi-k2-instruct
 - moonshotai/kimi-k2.6
 - moonshotai/kimi-k2-0905
+
+# Gpt-5.5-R Models
+- gpt-5.5-r
 
 # Minimax Models
 - minimax/minimax-m3
@@ -169,9 +184,6 @@
 
 # Gpt-5.5-Light Models
 - gpt-5.5-light
-
-# Gpt-5.5-R Models
-- gpt-5.5-r
 
 # Gpt-5.4-Pro Models
 - gpt-5.4-pro
@@ -374,6 +386,18 @@
 - xiaomimimo/mimo-v2-pro
 - xiaomimimo/mimo-v2.5-pro
 - xiaomimimo/mimo-v2-flash
+
+# Gpt-5.6-Terra-Es Models
+- gpt-5.6-terra-es
+
+# Gpt-5.6-Luna-Es Models
+- gpt-5.6-luna-es
+
+# Gpt-5.6-Sol-Es Models
+- gpt-5.6-sol-es
+
+# Grok-4.5 Models
+- grok-4.5
 
 # Gemini-3.1-Flash-Lite-Image Models
 - gemini-3.1-flash-lite-image
