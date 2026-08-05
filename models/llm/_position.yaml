@@ -4,6 +4,15 @@
 # Claude-Opus-4-7 Models
 - claude-opus-4-7
 
+# Deepseek Models
+- deepseek/deepseek-v4-flash-0731
+- deepseek/deepseek-v4-flash
+- deepseek/deepseek-v4-pro
+- deepseek/deepseek-r1-0528
+- deepseek/deepseek-v3-0324
+- deepseek/deepseek-v3.1
+- deepseek/deepseek-ocr-2
+
 # Claude-Opus-5 Models
 - claude-opus-5
 
@@ -80,14 +89,6 @@
 # Grok-4-Fast-Reasoning Models
 - grok-4-fast-reasoning
 
-# Deepseek Models
-- deepseek/deepseek-v4-flash
-- deepseek/deepseek-v4-pro
-- deepseek/deepseek-r1-0528
-- deepseek/deepseek-v3-0324
-- deepseek/deepseek-v3.1
-- deepseek/deepseek-ocr-2
-
 # Baidu Models
 - baidu/ernie-4.5-vl-424b-a47b
 - baidu/ernie-4.5-300b-a47b-paddle
@@ -114,6 +115,7 @@
 - qwen/qwen3-next-80b-a3b-instruct
 - qwen/qwen3-next-80b-a3b-thinking
 - qwen/qwen3.5-27b
+- qwen/qwen3.8-max
 - qwen/qwen3.5-122b-a10b
 - qwen/qwen3.5-35b-a3b
 - qwen/qwen3.5-397b-a17b
