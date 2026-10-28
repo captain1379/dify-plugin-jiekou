@@ -1,4 +1,5 @@
 author: captain1379
+contact: judyzt1379@gmail.com
 created_at: "2024-02-13T14:45:00-04:00"
 description:
   en_US: Jiekou.AI is a one-stop LLM API platform, providing stable, efficient and economic enterprise-level API solutions.
@@ -15,11 +16,13 @@ meta:
     entrypoint: main
     language: python
     version: '3.10'
-  version: 1.0.17
+  minimum_dify_version: 1.0.0
+  version: 1.0.18
 name: jiekou
 plugins:
   models:
   - provider/jiekou.yaml
+repo: https://github.com/captain1379/dify-plugin-jiekou
 resource:
   memory: 268435456
   permission:
@@ -34,5 +37,5 @@ resource:
     tool:
       enabled: true
 type: plugin
-version: 1.0.17
+version: 1.0.18
 privacy: https://jiekou.ai/legal/privacy-policy
